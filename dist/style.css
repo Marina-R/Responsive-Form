@@ -1,7 +1,7 @@
 body, input, button, textarea, select, label {
 	background-color: #47A3DA;
 	color: white;
-	font: 15px Arial, Helvetica, sans-serif;
+	font: 18px Lato, Calibri, Arial, sans-serif;
 	display: block;
 }
 label {
@@ -37,4 +37,10 @@ button {
 ::-webkit-input-placeholder {
    color: #0D6597;
    font-style: italic;
+}
+@media (min-width: 768px) {
+	.first-block, .second-block {
+		float: left;
+		width: 50%;
+	}
 }
