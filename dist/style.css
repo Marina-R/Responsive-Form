@@ -44,3 +44,9 @@ button {
 		width: 50%;
 	}
 }
+@media (min-width: 1122px) {
+	.first-block, .second-block, .third-block  {
+		float: left;
+		width: 33.3%;
+	}
+}
